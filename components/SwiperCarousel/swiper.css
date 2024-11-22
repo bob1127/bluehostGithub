@@ -1,0 +1,53 @@
+#app {
+  height: 100%;
+}
+li{
+  height: 700px;
+}
+.swiper {
+  width: 100%;
+  height: 600px;
+  padding: 30px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  width: 305px !important;
+ 
+ 
+  padding: 15px;
+
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.image-swiper-button-next,.image-swiper-button-prev{
+  /* width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: white;
+
+    
+
+  border: solid 3px red !important; 
+    */
+  
+}
+.swiper-button-prev {
+  content: ''
+}
+
+.swiper-button-next {
+  background-image: url('https://t4.ftcdn.net/jpg/06/32/96/65/360_F_632966537_f70WQ5jo135R4Ha2DkwKUUW2ekTzCXAh.jpg') ;
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "constants/data.js", "app/layout.jsx", "app/metadata.tsx", "app/page.jsx", "components/AnimatedGradient/components/Carousel/CarouselItem.jsx", "components/AnimatedGradient/components/Carousel/CarouselIndicator.jsx", "components/AnimatedGradient/components/Carousel/Carousel.jsx", "components/Carousel/index.jsx", "app/UP100/page.jsx", "components/ui/footer.jsx"],
+  "exclude": ["node_modules"]
+}
